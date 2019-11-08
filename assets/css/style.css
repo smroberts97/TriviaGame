@@ -1,0 +1,74 @@
+body {
+    background-image: url(https://wallpaperaccess.com/full/48867.jpg);
+    color: #fff;
+    font-size: 20px;
+    font-family: "ferrari-font";
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 100px;
+}
+
+.triviaBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100vw;
+}
+
+#question {
+    font-size: 35px;
+}
+
+.start {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-size: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 100px;
+    color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 75px;
+}
+
+.start:hover {
+    background-color: hsla(0, 0%, 0%, 0.5);
+    color: #fff;
+}
+
+.styledDiv {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 250px;
+    height: 50px;
+    margin: 10px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.styledDiv:hover {
+    background-color: hsla(0, 0%, 0%, 0.5);
+}
+
+.text {
+    text-align: center;
+}
+
+
+    
