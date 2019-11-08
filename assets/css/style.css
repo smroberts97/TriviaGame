@@ -1,8 +1,8 @@
 body {
-    background-image: url(https://wallpaperaccess.com/full/48867.jpg);
-    color: #fff;
-    font-size: 20px;
-    font-family: "ferrari-font";
+    background-image: url(https://gtspirit.com/wp-content/uploads/2017/06/Supercar-Sunday-12.jpg);
+    color: white;
+    font-size: 100px;
+    font-family: 'Sonsie One', cursive;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -20,6 +20,24 @@ h2 {
     font-size: 100px;
 }
 
+.title {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 250px;
+    height: 50px;
+    margin: 10px;
+    line-height: 50px;
+    text-align: center;
+}
+
+#container {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 250px;
+    height: 50px;
+    margin: 10px;
+    line-height: 50px;
+    text-align: center;
+}
+
 .triviaBox {
     display: flex;
     flex-direction: column;
@@ -27,6 +45,12 @@ h2 {
     align-items: center;
     position: relative;
     width: 100vw;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 250px;
+    height: 50px;
+    margin: 10px;
+    line-height: 50px;
+    text-align: center;
 }
 
 #question {
