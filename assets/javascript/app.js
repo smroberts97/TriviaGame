@@ -41,13 +41,13 @@ $(document).ready(function () {
     },   
     {
         question: "Which two cars from different manufacturers share the same engine and drive train?",
-        answers: {a: 'Lamborghini Huracan/Guiardo and Audi R8', b: 'Jeep Gladiator and Dodge Durango', 
+        answers: {a: 'Lamborghini Huracan/Gallardo and Audi R8', b: 'Jeep Gladiator and Dodge Durango', 
             c: 'Porche 911 Carrera 4S and Subaru Impreza', d: 'Audi Sport Quattro and Volvo XC 70', 
             e: 'Chevy Camaro and Ford Mustang'},
         correctAnswer: 'a'
     },
     {
-        question: "What kind of engine does the Lamborghini Sian?",
+        question: "What kind of engine does the Lamborghini Sian have?",
         answers: {a: 'naturally aspirated v12', b: 'twin-turbo v8', 
             c: 'quad turbo w16', d: 'hybrid v12', 
             e: 'naturally aspirated v10'},
@@ -76,7 +76,7 @@ $(document).ready(function () {
     },
     {
         question: "Which supercar founder started his career at Lamborghini?",
-        answers: {a: 'Horatio Pagani', b: 'Ettore Bugatti', 
+        answers: {a: 'Horacio Pagani', b: 'Ettore Bugatti', 
             c: 'Enzo Ferrari', d: 'Christian von Koenigsegg', 
             e: 'Bruce McLaren'},
         correctAnswer: 'a'
