@@ -45,6 +45,62 @@ $(document).ready(function () {
             c: 'Porche 911 Carrera 4S and Subaru Impreza', d: 'Audi Sport Quattro and Volvo XC 70', 
             e: 'Chevy Camaro and Ford Mustang'},
         correctAnswer: 'a'
+    },
+    {
+        question: "What kind of engine does the Lamborghini Sian?",
+        answers: {a: 'naturally aspirated v12', b: 'twin-turbo v8', 
+            c: 'quad turbo w16', d: 'hybrid v12', 
+            e: 'naturally aspirated v10'},
+        correctAnswer: 'd'
+    },
+    {
+        question: "Which movie/tv show combo had the same make/model car (but different year)?",
+        answers: {a: 'Batman vs Superman/Batman', b: 'The Italian Job/Miami Vice', 
+            c: 'Dumb and Dumber/Magnum PI', d: 'Smokey and the Bandit/Knight Rider', 
+            e: 'Gone in 60 seconds/Dukes of Hazzard'},
+        correctAnswer: 'd'
+    },
+    {
+        question: "Which supercar manufacturers are headquartered in Modena, Italy?",
+        answers: {a: 'Ferrari', b: 'Lamborghini', 
+            c: 'Pagani', d: 'Maserati', 
+            e: 'all of the above'},
+        correctAnswer: 'e'
+    },
+    {
+        question: "Which car holds the current 0-400k-0 (zero to 400k to zero) world record?",
+        answers: {a: 'Bugatti Chiron', b: 'Koenigsegg Regera', 
+            c: 'Bugatti Veyron', d: 'Koenigsegg Agera RS', 
+            e: 'Ferrari LaFerrari'},
+        correctAnswer: 'b'
+    },
+    {
+        question: "Which supercar founder started his career at Lamborghini?",
+        answers: {a: 'Horatio Pagani', b: 'Ettore Bugatti', 
+            c: 'Enzo Ferrari', d: 'Christian von Koenigsegg', 
+            e: 'Bruce McLaren'},
+        correctAnswer: 'a'
+    },
+    {
+        question: "Which car has its engine designed by Lamborghini?",
+        answers: {a: 'Ford F350', b: 'Audi Sport Quattro', 
+            c: 'McLaren F1', d: 'Dodge Viper', 
+            e: 'Jeep Cherokee Trackhawk'},
+        correctAnswer: 'd'
+    },
+    {
+        question: "What kind of engine is in the modern Formula One cars?",
+        answers: {a: 'v12 twin turbo', b: 'v10 twin turbo', 
+            c: 'v8 twin turbo', d: 'hybrid twin turbo v6', 
+            e: 'w12'},
+        correctAnswer: 'd'
+    },
+    {
+        question: "Which supercar manufacturer makes car bodies entirely of carbon?",
+        answers: {a: 'Bugatti', b: 'McLaren', 
+            c: 'Pagani', d: 'Ferrari', 
+            e: 'Rimac'},
+        correctAnswer: 'c'
     }
 
     ];
@@ -83,31 +139,31 @@ $(document).ready(function () {
         if (question[i].correctAnswer == "a") {
             $(".one").attr('id', 'correct');
         } else {
-            $("one").attr('id', 'incorrect');
+            $(".one").attr('id', 'incorrect');
         }
 
         if (question[i].correctAnswer == "b") {
             $(".two").attr('id', 'correct');
         } else {
-            $("two").attr('id', 'incorrect');
+            $(".two").attr('id', 'incorrect');
         }
 
         if (question[i].correctAnswer == "c") {
             $(".three").attr('id', 'correct');
         } else {
-            $("three").attr('id', 'incorrect');
+            $(".three").attr('id', 'incorrect');
         }
 
         if (question[i].correctAnswer == "d") {
             $(".four").attr('id', 'correct');
         } else {
-            $("four").attr('id', 'incorrect');
+            $(".four").attr('id', 'incorrect');
         }
 
         if (question[i].correctAnswer == "e") {
             $(".five").attr('id', 'correct');
         } else {
-            $("five").attr('id', 'incorrect');
+            $(".five").attr('id', 'incorrect');
         }
     }
 
@@ -116,7 +172,7 @@ $(document).ready(function () {
     //    $("#div1").toggle();
     //    $("#div2").toggle();
     //    $("#div3").toggle();
-    //   $("#div4").toggle();
+    //    $("#div4").toggle();
     //    $("#div5").toggle();
     }
 
@@ -136,8 +192,8 @@ $(document).ready(function () {
         clearInterval(timerId);
         spawnDivs();
         score = correctTally * 10;
-        $("#title").html("Your Score:"+"<p>"+"<h2>"+score+"<h2>");
-        $("#text").html("You got " + correctTally + "correct and " + incorrectTally + "wrong."+"<p>"+"Click to Rev it up Again");
+        $("#title").html("Your Score: "+"<p>"+"<h2>"+score+"<h2>");
+        $("#text").html("You got " + correctTally + " correct and " + incorrectTally + " wrong."+"<p>"+"Click to rev it up and play again");
     }
     function generateIncorrect() {
         timeLeft = 30;

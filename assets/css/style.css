@@ -1,41 +1,26 @@
 body {
     background-image: url(https://gtspirit.com/wp-content/uploads/2017/06/Supercar-Sunday-12.jpg);
-    color: white;
-    font-size: 100px;
+    color: yellow;
+    font-size: 200px;
     font-family: 'Sonsie One', cursive;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 h1 {
     text-align: center;
     font-size: 100px;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 h2 {
     text-align: center;
     font-size: 100px;
-}
-
-.title {
     background-color: rgba(0, 0, 0, 0.8);
-    width: 250px;
-    height: 50px;
-    margin: 10px;
-    line-height: 50px;
-    text-align: center;
-}
-
-#container {
-    background-color: rgba(0, 0, 0, 0.8);
-    width: 250px;
-    height: 50px;
-    margin: 10px;
-    line-height: 50px;
-    text-align: center;
 }
 
 .triviaBox {
@@ -46,15 +31,12 @@ h2 {
     position: relative;
     width: 100vw;
     background-color: rgba(0, 0, 0, 0.8);
-    width: 250px;
-    height: 50px;
-    margin: 10px;
-    line-height: 50px;
-    text-align: center;
 }
 
 #question {
     font-size: 35px;
+    background-color: rgba(0, 0, 0, 0.8);
+
 }
 
 .start {
@@ -78,8 +60,8 @@ h2 {
 }
 
 .styledDiv {
-    background-color: rgba(0, 0, 0, 0.8);
-    width: 250px;
+    background-color: rgba(29, 125, 180, 0.8);
+    width: 650px;
     height: 50px;
     margin: 10px;
     line-height: 50px;
@@ -92,6 +74,7 @@ h2 {
 
 .text {
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 
